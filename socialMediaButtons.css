@@ -1,0 +1,50 @@
+#container {
+  margin   : auto;
+  padding  : 0 3%;
+  max-width: 1200px;
+}
+
+.fa {
+  padding        : 20px;
+  font-size      : 30px;
+  width          : 50px;
+  text-align     : center;
+  text-decoration: none;
+}
+
+#header {
+  margin-bottom: 2rem;
+}
+
+.fa-instagram {
+  background: #125688;
+  color     : white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color     : white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color     : white;
+}
+
+.fa-github {
+  background: rgb(226, 219, 228);
+  color     : rgb(34, 31, 31);
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+#footer {
+  margin-top: 10rem;
+  text-align: center;
+  bottom    : 0px;
+  width     : 100%;
+}

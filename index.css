@@ -1,0 +1,68 @@
+body {
+    background-color: #96aea3;
+    font-family     : 'Economica', sans-serif;
+    font-size       : 17.5px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fancy-button {
+    transition      : all ease-in-out 500ms;
+    background-color: hsl(162deg 35% 41%);
+    cursor          : pointer;
+    padding         : 18px;
+    border-radius   : 15px;
+    border-style    : hidden;
+    box-shadow      : inset 0 0 0 rgba(255, 255, 255, .5);
+}
+
+.fancy-button:hover {
+    box-shadow: inset 0 100px 0 rgba(255, 255, 255, .5);
+}
+
+#one {
+    border-radius: 25px;
+    padding      : 2.5%;
+    margin       : auto;
+    margin-bottom: 1rem;
+    width        : 10rem;
+}
+
+#two {
+    border-radius: 25px;
+    padding      : 2.5%;
+    margin       : auto;
+    margin-right : 1rem;
+    width        : 10rem;
+}
+
+#three {
+    border-radius: 25px;
+    padding      : 2.5%;
+    margin       : auto;
+    margin-top   : 1rem;
+    width        : 10rem;
+}
+
+#aside-left {
+    float: left;
+    clear: both;
+}
+
+#aside-left img {
+    border-radius: 25%;
+}
+
+#containerOne {
+    margin: 0;
+}
+
+#containerTwo {
+    margin: 0;
+}
+
+#containerThree {
+    margin: 0;
+}
